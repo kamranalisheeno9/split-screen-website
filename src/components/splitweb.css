@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+:root {
+  --headerText: "Poppins", sans-serif;
+  --HeaderColor: #62c556;
+  --paragrphColor: #a9a9a9;
+  --secondarybg: #3a3c3f;
+}
+.row > * {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0px !important;
+}
+/* __________ */
+.form-control {
+  background: transparent !important;
+  border-color: var(--paragrphColor) !important;
+  border: none !important;
+  border-bottom: 1px solid #a9a9a95e !important;
+  border-radius: 0px !important;
+  outline: none !important;
+  color: var(--paragrphColor) !important;
+}
+.form-control:focus {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.229) !important ;
+}
+
+/* __________ */
+
+.first-box {
+  height: 100%;
+}
+.second-box {
+  position: fixed;
+  right: 0;
+}
+.profile-data {
+  /* height: 100vh; */
+  min-height: 100vh;
+  font-family: var(--headerText);
+  color: var(--HeaderColor);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0px !important;
+  width: 100% !important;
+}
+
+.profile-data video {
+  width: 100%;
+  height: 100vh;
+
+  min-height: 100%;
+  object-fit: cover;
+}
+.content {
+  width: 100% !important;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.overlay-split {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+    height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.profile-header {
+  font-size: 30px;
+  text-align: center;
+}
+.profile-header span {
+  font-weight: bolder;
+  font-size: 34px;
+}
+.profile-para {
+  width: 75% !important;
+  margin: 20px auto !important;
+  text-align: justify;
+  color: var(--paragrphColor);
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-indent: 45px;
+  margin: 20px 0px;
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  width: 70% !important;
+  background-color: var(--secondarybg);
+  padding: 30px 40px !important;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.229);
+}
+.submit-btn {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.form-header {
+  margin: 20px;
+  text-transform: uppercase;
+  font-family: var(--headerText);
+  color: var(--HeaderColor);
+  text-align: center;
+  letter-spacing: 8px !important;
+}
+.form-header::first-letter {
+  font-size: 70px;
+  text-shadow: 0px 0px 4px #2f3032 !important;
+}
+
+.project-content {
+  width: 100% !important;
+
+  height: 100vh !important;
+  min-height: 100vh !important;
+}
+.project-card {
+  background-color: var(--secondarybg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.229) !important ;
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 20px auto;
+}
+.project-card h4 {
+  text-transform: uppercase;
+  color: var(--HeaderColor);
+}
+.project-card p {
+  color: var(--paragrphColor);
+}
+.split-container {
+  display: flex;
+  background-color: var(--HeaderColor);
+  border-radius: 15px;
+  width: 95%;
+  margin: 30px auto;
+  margin-top: 50px;
+}
+
+.split-img {
+  background-image: url("https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960");
+  filter: grayscale(100%);
+  width: 100%;
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.split-img-1 {
+  background-image: url("https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960");
+  width: 100%;
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.more-projects-div {
+  border-radius: 15px;
+  width: 95%;
+  margin: 0 auto;
+}
+.more-projects-div p {
+  color: var(--paragrphColor);
+}
+.more-projects-btn {
+  background-color: var(--HeaderColor) !important;
+  float: right;
+}
+.more-projects-btn:hover {
+  background-color: #61c556d8 !important;
+}
+
+.modal-div .modal-content {
+  background: var(--secondarybg) !important;
+  color: var(--paragrphColor) !important;
+}
+
+.modal-div .modal-header,
+.modal-footer {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+@media screen and (max-width: 765px) {
+  .main-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .second-box {
+    position: relative;
+    right: 0;
+  }
+
+  .second-box img {
+    height: 70vh !important;
+    object-fit: cover;
+    object-position: center;
+  }
+  .split-container {
+    width: 100%;
+  }
+  .profile-header {
+    font-size: 22px;
+  }
+  .profile-para {
+    font-size: 16px;
+  }
+  .form-data {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .second-box img {
+    height: 40vh !important;
+  }
+}
