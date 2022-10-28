@@ -35,17 +35,17 @@ const Translator = () => {
           <Container fluid style={{ height: "100%" }}>
             {next ? (
               <iframe
-                src="https://docs.google.com/presentation/d/e/2PACX-1vREAWhxXgHFMoWZNPYNYoLtmWX1uIz_7qngEyvJs4UznqswU7YJkg2YmXbM5YprxAa5Fguz1hBV_wSM/embed?start=false&loop=false&delayms=3000"
-                frameborder="0"
-                width="100%"
-                height="572"
-                allowfullscreen="true"
-                mozallowfullscreen="true"
-                webkitallowfullscreen="true"
+              src="https://docs.google.com/presentation/d/e/2PACX-1vREAWhxXgHFMoWZNPYNYoLtmWX1uIz_7qngEyvJs4UznqswU7YJkg2YmXbM5YprxAa5Fguz1hBV_wSM/embed?start=false&loop=false&delayms=3000&slide=id.g1509d630c3e_0_927https://docs.google.com/presentation/d/e/2PACX-1vREAWhxXgHFMoWZNPYNYoLtmWX1uIz_7qngEyvJs4UznqswU7YJkg2YmXbM5YprxAa5Fguz1hBV_wSM/embed?start=false&loop=false&delayms=3000&slide=id.g15759d458aa_0_31"
+              frameborder="0"
+              width="100%"
+              height="572"
+              allowfullscreen="true"
+              mozallowfullscreen="true"
+              webkitallowfullscreen="true"
               ></iframe>
-            ) : (
-              <iframe
-                src="https://docs.google.com/presentation/d/e/2PACX-1vRoE1Bmy-ERt2bOKC6PkTg3fZyJB3zkSJ45KOcYg2q5OTWZUfzOtYFay_iQhFv2ksODHFE9xCD1_cJy/embed?start=false&loop=false&delayms=3000"
+              ) : (
+                <iframe
+                src="https://docs.google.com/presentation/d/e/2PACX-1vRoE1Bmy-ERt2bOKC6PkTg3fZyJB3zkSJ45KOcYg2q5OTWZUfzOtYFay_iQhFv2ksODHFE9xCD1_cJy/embed?start=false&loop=false&delayms=3000&slide=id.g1509d630c3e_0_927"
                 frameborder="0"
                 width="100%"
                 height="572"
@@ -166,7 +166,7 @@ const Translator = () => {
                 minSize={[0, 0]}
                 sizes={[50, 50]}
                 expandToMin={false}
-                gutterSize={3}
+                gutterSize={10}
                 gutterAlign="center"
                 snapOffset={30}
                 dragInterval={1}
